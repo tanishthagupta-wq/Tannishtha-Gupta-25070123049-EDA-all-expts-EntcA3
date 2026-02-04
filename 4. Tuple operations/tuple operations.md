@@ -17,7 +17,6 @@ A **Tuple** is a built-in data structure in Python used to store collections of 
 2.  **Ordered:** Items have a defined order and are indexed.
 3.  **Allow Duplicates:** Tuples can contain items with the same value.
 4.  **Heterogeneous:** Can store elements of different data types (e.g., `("Maths", 45, "A")`).
-# Experiment: Operations on Tuples
 
 ## Objectives & Scope
 This experiment covers the following operations:
@@ -28,26 +27,25 @@ Analysis: Using count() and membership operators (in) for data analysis.
 
 ## Code Implementation & Problem Statements
 The experiment solves the following problem statements:
-1. Verification of Immutability
+1. **Verification of Immutability**
 Attempted Modification: Tried changing mytodolist[1] to "repair the laptop".
 Result: TypeError: 'tuple' object does not support item assignment.
 Attempted Appending: Tried using .append().
 Result: AttributeError: 'tuple' object has no attribute 'append'.
 Workaround: Demonstrated adding a new tuple (y) to an existing tuple (mytodolist) to create a new combined tuple.
 
-2. Problem Statement 1: Tuple Slicing Practice
+2. **Problem Statement 1: Tuple Slicing Practice**
 Input: A tuple of integers (10, 20, 30, 40, 50). Operations:
 Printing elements from index 1 to 3.
 Printing the first 3 elements.
 Printing elements from index 2 onwards (Reverse Indexing context).
 
-Printing all elements.
-3. Problem Statement 2: Student Marks Result Analysis
+3. **Problem Statement 2: Student Marks Result Analysis**
 Input: A heterogeneous tuple containing Subject, Marks, and Grade: ("Maths", 45, "A"). Logic:
 Access elements by index to display Subject, Marks, and Grade.
 Check if Marks (Index 1) are greater than 75 to determine if "Distinction" is achieved.
 
-4. Problem Statement 3: Employee Daily Attendance
+4. **Problem Statement 3: Employee Daily Attendance**
 Input: A tuple representing weekly attendance: ("P", "P", "P", "A", "P", "P"). Operations:
 Count Presence: Used .count("P") to calculate total present days.
 Count Absence: Used .count("A") to calculate total absent days.
