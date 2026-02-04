@@ -1,14 +1,13 @@
 # Experiment 5: To Study Sets and Dictionaries in Python
 
-## Title Page
-
-**Project Name:** Operations on Sets and Dictionaries in Python  
-**Purpose:** Study of Sets and Dictionaries and Their Operations  
-**Language:** Python  
+## Student Details
+* **Name:** Tannishtha Gupta
+* **PRN:** 25070123049
+* **Batch:** ENTC A3
 
 ---
 
-##Aim of the Study
+## Aim
 
 The aim of this project is to study **Sets and Dictionaries** in Python and understand the various operations that can be performed on them. This helps in learning how to store, manage, and manipulate data efficiently using these data structures.
 
