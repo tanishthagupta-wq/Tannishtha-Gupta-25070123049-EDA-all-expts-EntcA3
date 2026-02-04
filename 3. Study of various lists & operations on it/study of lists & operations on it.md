@@ -12,10 +12,17 @@ To study the definition, creation, and manipulation of Lists in Python, and to i
 A **List** in Python is a built-in data structure used to store multiple items in a single variable. Lists are one of the four built-in data types in Python used to store collections of data.
 
 **Key Characteristics of Lists:**
-1.  **Ordered:** The items have a defined order, and that order will not change.
-2.  **Mutable (Changeable):** We can change, add, and remove items in a list after it has been created.
-3.  **Allow Duplicates:** Since lists are indexed, they can have items with the same value.
-4.  **Heterogeneous:** A list can contain elements of different data types (Integers, Strings, Booleans, etc.).
+1.  **Ordered:**
+   The items have a defined order, and that order will not change.
+2.  **Mutable (Changeable):**
+    We can change, add, and remove items in a list after it has been created.
+5.  **Allow Duplicates:** Since lists are indexed, they can have items with the same value.
+6.  **Heterogeneous:** A list can contain elements of different data types (Integers, Strings, Booleans, etc.).
+7.  **Dynamic Size:** Unlike arrays in languages like C or Java, Python lists do not have a fixed size. They automatically grow or shrink
+    as you add or remove elements, managing memory in the background.
+8.  **Support Nesting (Multidimensional):** A list can contain another list as an element. This allows for the creation of complex data structures like matrices or grids (e.g., [[1, 2], [3, 4]]).
+9.  **Iterable:** Lists are "iterables," meaning you can easily traverse through them one item at a time using a loop (like a for loop).
+10.  **Zero-Based Indexing:** Accessing data relies on a position count starting at 0 for the first item. Python also supports Negative Indexing (starting at -1) to access items from the end of the list.
 
 ## Objectives & Scope
 This experiment covers the following operations:
