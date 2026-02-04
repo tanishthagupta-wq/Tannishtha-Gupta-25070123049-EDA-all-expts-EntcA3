@@ -52,16 +52,27 @@ Comments are non-executable statements used to explain code and improve readabil
 * **Single-line comments:** Begin with `#`
 * **Multi-line comments:** Written using triple quotes `"""` or `'''`
 
-```python
-# This is a single-line comment
+### 4. Variables and Identifiers
+A variable is a named memory location used to store data values. Python uses dynamic typing, meaning variables do not require explicit data type declaration.
+Rules for Identifiers: Must start with a letter (A–Z, a–z) or underscore _.Cannot start with a digit.Identifiers are case-sensitive.Must not be a Python keyword (e.g., if, else, while).
 
-"""
-This is a 
-multi-line comment
-"""
-4. Variables and IdentifiersA variable is a named memory location used to store data values. Python uses dynamic typing, meaning variables do not require explicit data type declaration.Rules for Identifiers:Must start with a letter (A–Z, a–z) or underscore _.Cannot start with a digit.Identifiers are case-sensitive.Must not be a Python keyword (e.g., if, else, while).5. Data Types in PythonPython provides several built-in data types to store different kinds of data. You can check a type using type().Data TypeKeywordDescriptionExampleIntegerintWhole numbersx = 10Floating-pointfloatDecimal numbersy = 10.5StringstrSequence of charactersname = "Python"BooleanboolTrue or Falseis_valid = True6. Operators and ExpressionsAn expression is a combination of operators and operands that produces a result.Operator TypeDescriptionSymbolsArithmeticMathematical calculations+, -, *, /, %RelationalComparison>, <, >=, <=, ==, !=LogicalCombining conditionsand, or, notAssignmentAssigning values=, +=, -=, *=, /=BitwiseBit-level operations&, `7. Basic Input and Output OperationsInputThe input() function is used to accept input from the user.Note: Input is treated as a string by default and may require type conversion (casting).Pythonname = input("Enter your name: ")
-age = int(input("Enter your age: ")) # Type conversion to integer
+### 5. Data Types in Python
+Python provides several built-in data types to store different kinds of data. You can check a type using type().
+Data TypeKeywordDescriptionExampleIntegerintWhole numbersx = 10Floating-pointfloatDecimal numbersy = 10.5
+StringstrSequence of charactersname = "Python"BooleanboolTrue or Falseis_valid = True
+
+### 6. Operators and Expressions
+An expression is a combination of operators and operands that produces a result.
+Operator Type Description Symbols Arithmetic Mathematical calculations+, -, *, /, %RelationalComparison>, <, >=, <=, ==, !=LogicalCombining conditionsand, or, notAssignmentAssigning values=, +=, -=, *=, /=BitwiseBit-level operations&
+
+### 7. Basic Input and Output Operations
+The input() function is used to accept input from the user.
+Note: Input is treated as a string by default and may require type conversion (casting).
+Pythonname = input("Enter your name: ")
+age = int(input("Enter your age: ")) 
+Type conversion to integer
 OutputThe print() function is used to display output.Pythonprint("Hello World")
 print("Name:", name, "Age:", age)
-#Conclusion
+
+### Conclusion
 Thus, the Python programming environment, execution modes, variables, data types, operators, and basic input/output operations were studied and understood.
